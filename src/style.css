@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  @font-face {
+    font-family: 'zodiac';
+    font-style: normal;
+    font-display: swap;
+    font-weight: normal;
+    src: url('../public/zodiac.ttf');
+  }
+
+  @font-face {
+    font-family: 'CeraProRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('../public/CeraProRegular.woff') format('woff');
+  }
+
+
+  @font-face {
+    font-family: 'CeraProMedium';
+    font-style: normal;
+    font-display: swap;
+    font-weight: normal;
+    src: url('../public/CeraProMedium.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'CeraProBold';
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../public/CeraProBold.woff') format('woff');
+  }
+
+
+
+}
